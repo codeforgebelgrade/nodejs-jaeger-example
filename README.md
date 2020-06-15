@@ -9,7 +9,7 @@ Next, you have tu run Docker container that will start Jaeger with the default i
 
 You will be able to access Jaeger UI on: http://localhost:16686
 
-Now you can start the demo application. Here's an example request: `localhost:3000/artist-info?artistName=metallica` (you can put any artist/band name you like as a `artistName` parmeter). However, you will also have to set up `Authorization` header for your request - as a value, you will have to provide valid Spotify API access token, that you can obtain on Spotify API website. 
+Now you can start the demo application. Here's an example request: `localhost:3000/artist-info?artistName=metallica` (you can put any artist/band name you like as a `artistName` parmeter). However, you will also have to set up `Authorization` header for your request - as a value, you should use `Bearer <access token>`, where `<acces token>` refers to Spotify API access token, that you can obtain on Spotify API website. 
 
 Once you send a few requests, you should be able to see them in Jaeger UI.
 
