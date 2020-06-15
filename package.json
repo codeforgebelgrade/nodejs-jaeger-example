@@ -1,0 +1,15 @@
+{
+  "name": "nodejs_katas",
+  "version": "1.0.0",
+  "description": "simple nodejs api",
+  "main": "simple_api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "miroslav",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jaeger-client": "^3.18.0"
+  }
+}
