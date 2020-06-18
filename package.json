@@ -2,7 +2,7 @@
   "name": "nodejs_katas",
   "version": "1.0.0",
   "description": "simple nodejs api",
-  "main": "simple_api.js",
+  "main": "simple-api.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
